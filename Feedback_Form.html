@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white; /* White background */
+      color: #ff0000; /* Red text color */
+    }
+    h2 {
+      color: #ff0000; /* Red heading color */
+    }
+    /* Form container styles */
+    form {
+      width: 50%;
+      margin: 10% 25%;
+      padding: 20px;
+      background-color: white; /* White background */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    /* Style inputs and buttons */
+    input[type="text"], input[type="email"], textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ff0000; /* Red border */
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    button[type="submit"] {
+      background-color: #ff0000; /* Red button background */
+      color: #ffffff; /* White text color */
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button[type="submit"]:hover {
+      background-color: #cc0000; /* Darker red on hover */
+
+    }
+  </style>
+</head>
+<body>
+  <form action="http://localhost:3000/submit-form" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Your Name" name="name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="abc123@xyz.com" name="email" required><br>
+
+    <label for="rating">Rating:</label>
+    <input type="range" id="rating" name="rating" min="1" max="5" required><br>
+    <br>
+
+    <label for="feedback">Feedback:</label><br>
+    <textarea id="feedback" name="feedback" rows="4" required></textarea><br>
+
+    <button type="submit">Submit Feedback</button>
+  </form>
+</body>
+</html>
