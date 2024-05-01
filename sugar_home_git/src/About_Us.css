@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Blueberry Regular'; 
+    src: url('/src\assets\Blueberry Regular.otf') format('opentype');  
+  }
+
+@font-face {
+    font-family: 'Lovelo Black'; 
+    src: url('/src\assets\Lovelo Black.otf') format('opentype');  
+  }
+
+  @font-face {
+    font-family: 'Montserrat'; 
+    src: url('/src\assets\Montserrat-VariableFont_wght.ttf') format('truetype');  
+  }
+
+.img-container{
+    position: relative;
+}
+
+
+.about_heading{
+    top: 130%; /* Positions the heading vertically in the center */
+    left: 50%; /* Positions the heading horizontally in the center */
+    transform: translate(-50%, -50%); /* Adjusts for its own height and width */
+    font-family: Blueberry Regular;
+    color: #E4CAAC;
+    font-size: 80px;
+    position: absolute;
+}
+
+.about_heading_1{
+    top: 143%; /* Positions the heading vertically in the center */
+    left: 45%; /* Positions the heading horizontally in the center */
+    transform: translate(-50%, -50%); /* Adjusts for its own height and width */
+    font-family: Blueberry Regular;
+    margin-left: 200px;
+    color: #DD0808;
+    font-size: 110px;
+    position:absolute;
+}
+
+p{
+    font-family:'Montserrat';
+    color: #DD0808;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 2%;
+    padding-left: 25%;
+    padding-right:25% ;
+}
+

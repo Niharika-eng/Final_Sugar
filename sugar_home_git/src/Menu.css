@@ -1,0 +1,37 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .menu {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .dish {
+            margin-bottom: 10px;
+        }
+
+        .dish-name {
+            font-weight: bold;
+        }
+
+        .dish-price {
+            float: right;
+            color: #888;
+        }
+
+        .dish-description {
+            margin-top: 5px;
+            color: #666;
+        }

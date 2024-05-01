@@ -1,0 +1,36 @@
+.cardf{
+    width: 700px;
+    margin-left: 480px;
+    margin-top: 100px;
+    border-radius: 30px;
+    border-color: #e4caac6c;
+    border-width: 2px;
+}
+
+.cardf-title1{
+    font-family: Blueberry Regular;
+    font-size: 50px;
+    color: #E4CAAC;
+    margin-top: 40px;
+}
+
+.cardf-title2{
+    font-family: Blueberry Regular;
+    font-size: 80px;
+    color: #DD0808
+}
+
+.cardf-text{
+    margin-top: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+.btn{
+    font-family: Lovelo Black;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

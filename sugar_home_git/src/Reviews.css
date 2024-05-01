@@ -1,0 +1,84 @@
+.img2-container{
+    margin-top: 80px;
+    position: relative;
+}
+
+
+.reviews_heading{
+    top: 327%; /* Positions the heading vertically in the center */
+    left: 55%; /* Positions the heading horizontally in the center */
+    transform: translate(-50%, -50%); /* Adjusts for its own height and width */
+    font-family: Blueberry Regular;
+    color: #E4CAAC;
+    font-size: 80px;
+    position: absolute;
+}
+
+.reviews_heading_1{
+    top: 339%; /* Positions the heading vertically in the center */
+    left: 37%; /* Positions the heading horizontally in the center */
+    transform: translate(-50%, -50%); /* Adjusts for its own height and width */
+    font-family: Blueberry Regular;
+    margin-left: 200px;
+    color: #DD0808;
+    font-size: 50px;
+    position:absolute;
+}
+
+.cardie_1 img {
+    height: 350px;
+    width: 350px;
+    border-radius: 1000px;
+    margin-left:25%;
+    position: relative; /* This allows absolute positioning of child elements */
+  }
+
+  .cardie1_text{
+    position: absolute; /* Positions the text element absolutely within the card */
+    top: 2990px; /* Places the text at the top of the card */
+    left: 17px;
+    margin-left: 25.3%; /* Places the text at the left of the card */
+    margin-right: 55%;
+    padding: 10px; /* Adds some padding for better readability */
+    color: white; /* Sets the text color to white (assuming a dark background) */
+    font-size: 20px;
+}
+  
+  .cardie_2 img {
+    height: 475px;
+    width: 475px;
+    border-radius: 1000px;
+    margin-left:48%;
+    margin-top: -15%;
+  }
+
+  .cardie2_text{
+    position: absolute; /* Positions the text element absolutely within the card */
+    top: 3120px; /* Places the text at the top of the card */
+    margin-left: 51%; /* Places the text at the left of the card */
+    margin-right: 27%;
+    padding: 10px; /* Adds some padding for better readability */
+    color: white; /* Sets the text color to white (assuming a dark background) */
+    font-size: 20px;
+}
+
+  .cardie_3 img {
+    height: 375px;
+    width: 375px;
+    border-radius: 1000px;
+    margin-left: 25%;
+    margin-top: -10%;
+  }
+
+  .cardie3_text{
+    position: absolute; /* Positions the text element absolutely within the card */
+    top: 3410px; /* Places the text at the top of the card */
+    left: 29px;
+    margin-left: 25.3%; /* Places the text at the left of the card */
+    margin-right: 55%;
+    padding: 10px; /* Adds some padding for better readability */
+    color: white; /* Sets the text color to white (assuming a dark background) */
+    font-size: 20px;
+}
+
+  

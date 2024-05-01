@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Blueberry Regular'; 
+    src: url('/src\assets\Blueberry Regular.otf') format('opentype');  
+  }
+
+  @font-face {
+    font-family: 'Lovelo Black'; 
+    src: url('/src\assets\Lovelo Black.otf') format('opentype');  
+  }
+  
+.custom-navbar {
+    background-color: #DD0808;  /* Example color: light orange */
+  }
+
+  .navbar-font {
+    font-family: 'Blueberry Regular', sans-serif;
+  }
+
+  .nav-link, .nav-link active{
+    font-family: 'Lovelo Black', sans-serif;
+    font-size: small;
+  }
+  
+  .navbar-toggler{
+    fill: #ffff;  /* Replace with your hex code */
+  }
+
+  .headroom--pinned {
+    position: fixed;
+    transform: translateY(0%);
+  }
+
+  .headroom--unpinned {
+    position: fixed;
+    transform: translateY(-100%);
+  }
+  

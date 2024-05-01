@@ -1,0 +1,54 @@
+.img1-container{
+    position: relative;
+}
+
+
+.menu_heading{
+    top: 215%; /* Positions the heading vertically in the center */
+    left: 55%; /* Positions the heading horizontally in the center */
+    transform: translate(-50%, -50%); /* Adjusts for its own height and width */
+    font-family: Blueberry Regular;
+    color: #E4CAAC;
+    font-size: 80px;
+    position: absolute;
+}
+
+.menu_heading_1{
+    top: 227%; /* Positions the heading vertically in the center */
+    left: 40%; /* Positions the heading horizontally in the center */
+    transform: translate(-50%, -50%); /* Adjusts for its own height and width */
+    font-family: Blueberry Regular;
+    margin-left: 200px;
+    color: #DD0808;
+    font-size: 110px;
+    position:absolute;
+}
+.card-container {
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex; /* Enable flexbox for the container */
+    flex-wrap: wrap; /* Wrap cards to new lines if space is limited */
+    justify-content: space-between; /* Distribute cards evenly */
+    /* Optional: Add margin or padding for spacing */
+  }
+
+.card{
+  border-width: 5px;
+  border-radius: 20px;
+  width: 400px;
+}
+
+.my-card-size img {
+    width: 400px; /* Stretch image to fill card width */
+    height: 200px; /* Stretch image to fill card height */
+    border-radius: 20px;
+    object-fit: cover; /* Crop image to fit card dimensions */
+    overflow: hidden;
+  }
+
+  .card-text{
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: Blueberry Regular;
+    font-size: 25px;
+}

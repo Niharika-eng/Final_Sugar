@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Blueberry Regular'; 
+    src: url('/src\assets\Blueberry Regular.otf') format('opentype');  
+  }
+
+  .image-container {
+    width: 1705px;
+    height: 750px;
+    background-image: url("/src\assets\HeroImage.jpg"); /* Replace with your image URL */
+    position: relative; /* Needed for proper overlay positioning */
+    background-size: cover; /* Scales the background image to cover */
+    background-position:  50% 80%; /* Positions the image in the center */
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+  }
+
+  
+  
+  .image-overlay {
+    position: absolute; /* Overlaps the background image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 30% opacity */
+  }
+
+  .Myimage { /* Hide the actual image element */
+    display: none;
+  }
+  
+
+  .centered-heading {
+    color: white;
+    font-family: 'Blueberry Regular', sans-serif; /* Include the font family */
+    font-size: 120px; /* Example font size adjustment */
+    z-index: 1;
+  }
+
+  .sub-heading{
+    font-family: Lovelo Black;
+    color: #ffff;
+    z-index: 1;
+    margin-top:185px;
+    margin-left: -290px;
+    font-size:15px;
+
+  }
